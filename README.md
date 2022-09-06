@@ -24,7 +24,7 @@ The district summary is a single row table containing information about the scho
 
 The Image 01, shows the school district summary tables for the data before (top) and after (below) the annulation of the math and reading scores of the 9th grade students from the Thomas High School.
 
-[Image 01](./Resources/01_Distric_Summary.png)
+![Image 01](./Resources/01_Distric_Summary.png)
 
 *Image 01: School Distric Summary Tables*
 
@@ -34,11 +34,11 @@ As observed, there are some differences between both tables and a reduction of t
 
 The school summary is a table showing the information such as the number of students, the budget, the test results and the passing statistics of each school. Keeping in mind that the data edition only affected the Thomas High School, the differences between the tables shown in Images 02a and 02b are narrowed down to this Charter school.  
 
-[Image 02a](./Resources/02a_School_Summary_Before.png)
+![Image 02a](./Resources/02a_School_Summary_Before.png)
 
 *Image 02a: School Summary Table before data edition*
 
-[Image 02b](./Resources/02b_School_Summary_After.png)
+![Image 02b](./Resources/02b_School_Summary_After.png)
 
 *Image 02b: School Summary Table after data edition*
 
