@@ -18,7 +18,7 @@ Three final deliverables are provided:
 
 ## Results
 
-**1. How is the district summary affected?**
+### **1. How is the district summary affected?**
 
 The district summary is a single row table containing information about the schools in the district being analyzed. In this case fifteen schools were analyzed and information such as the total number of students, the total budget destinated to the schools and the standarized math and reading testing results as well as passing statistics are displayed.
 
@@ -30,7 +30,7 @@ The Image 01, shows the school district summary tables for the data before (top)
 
 Some differences can be seen between both tables and ther is a reduction of the average scores and passing percentages due to the edition of the data, however the differences observed are small as the data affected represent only a small sample of all the data averaged here.
 
-**2. How is the school summary affected?**
+### **2. How is the school summary affected?**
 
 The school summary is a table showing the information such as the number of students, the budget, the test results and the passing statistics of each school. Keeping in mind that the data edition only affected the Thomas High School, the differences between the tables shown in Images 02a and 02b are narrowed down to this Charter school as indicated by the red squares.  
 
@@ -42,11 +42,11 @@ The school summary is a table showing the information such as the number of stud
 
 *Image 02b: School Summary Table after data edition*
 
-**3. How does replacing the ninth graders’ math and reading scores affect Thomas High?**
+### **3. How does replacing the ninth graders’ math and reading scores affect Thomas High?**
 
 After replacing the ninth grade students scores by NaN values, there is a huge drop in the passing math, reading and overall passing percentages for the Thoma High School. This is because all the students, including 9th graders are considered to get the averaged values shown in the table of Image 02b.
 
-**4. School’s performance relative to the other schools?**
+### **4. School’s performance relative to the other schools?**
 
 Before the edition of the data, the Thomas High was ranked as the top two performance school with an overall passing percentage of 90.95%, just behind the Cabrera High with a 91.33%. However after the edition of the student data, there are two scenarios for the Thomas High.
 
@@ -66,16 +66,46 @@ The second scenario will not consider the 9th graders in the school statistics c
 
 *Image 04c: Thomas High School Performance Ranking after data edition (Scenarion 2)*
 
-**5. How does replacing the ninth-grade scores affect the following:**
-    - Math and reading scores by grade: 
-    - Scores by school spending
-    - Scores by school size
-    - Scores by school type
+### **5. How does replacing the ninth-grade scores affect the following:**
+
+#### **Math and reading scores by grade**
+
+Images 05a and 05b show the math and reading scores by grade for the 15 schools. It is observed that replacing the Thomas High School 9th grade results only affect that specific grade and do not impact the rest.
+
+![Image 05a](./Resources/05a_MathScores_ByGrade.png)
+
+*Image 05a: Math Scores by Grade*
+
+![Image 05b](./Resources/05b_ReadingScores_ByGrade.png)
+
+*Image 05b: Reading Scores by Grade*
+
+#### **Scores by school spending**
+
+The school spending is dependent on the number of students per school, since the student count was not affected when replacing the 9th graders math and reading scores from the Thomas High School, the schools buget remain unchanged as in Image 05c.
+
+![Image 05c](./Resources/05c_ScoresBySpending.png)
+
+*Image 05c: Scores by school spending*
+
+#### **Scores by school size**
+
+The population of the school was not affected when replacing the 9th grade results from Thomas high school, thus scoring the schools based on the school size was not affected and remained as in Image 05d.
+
+![Image 05d](./Resources/05d_ScoresByPopulation.png)
+
+*Image 05d: Scores by school population*
+
+#### **Scores by school type**
+
+The school type was not affected when replacing the 9th grade results from Thomas high school, thus scoring the schools based their types did not change and remained as in Image 05e.
+
+![Image 05e](./Resources/05e_ScoresByType.png)
+
+*Image 05e: Scores by school type*
 
 ## Summary
 
+
+
 <!-- Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs -->
-
-<!-- ![Image3](./Resources/Code_part02.png)
-
-*Image 3: PyPoll Python 3 script, total number of votes and vote count by county & candidate* -->
